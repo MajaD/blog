@@ -38,8 +38,8 @@
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
 
-        <h3>
-<a name="witaj-na-mojej-stronie-na-githubcom" class="anchor" href="#witaj-na-mojej-stronie-na-githubcom"><span class="octicon octicon-link"></span></a>Witaj na mojej stronie na GitHub.com.</h3>
+        <h1>
+<a name="witaj-na-mojej-stronie-na-githubcom" class="anchor" href="#witaj-na-mojej-stronie-na-githubcom"><span class="octicon octicon-link"></span></a>Witaj na mojej stronie na GitHub.com.</h1>
 
 <p>Tutaj znajdziesz kilka podstawowych pojęć z programowania i środowiska programisty.</p>
 
@@ -47,30 +47,442 @@
 z głupotą trzeba się urodzić.
 </code></pre>
 
-<h3>
-<a name="o-mnie" class="anchor" href="#o-mnie"><span class="octicon octicon-link"></span></a>O mnie.</h3>
+<hr><hr><h1>
+<a name="o-mnie" class="anchor" href="#o-mnie"><span class="octicon octicon-link"></span></a>O mnie.</h1>
 
 <p>Nazywam się Maja. Jestem studentką pierwszego roku Informatyki Uniwersytetu Gdańskiego wydziału Matematyki, Fizyki i Informatyki. Interesuję się programowaniem i grafiką komputerową, a także podróżami.</p>
 
-<h3>
-<a name="linki-do-repozytorium" class="anchor" href="#linki-do-repozytorium"><span class="octicon octicon-link"></span></a>Linki do repozytorium.</h3>
+<hr><hr><pre><code>░░░▄▄▀▀▀▀▀▄▄░░░
+░▄▀░░░░░░░░░▀▄░
+▄▀░░░█░░░█░░░▀▄
+█░░░░░░░░░░░░░█
+█░█▄▄▄▄▄▄▄▄▄█░█
+░█░░░░░░░░░░░█░
+░░▀▄▄░░░░░▄▄▀░░
+░░░░░▀▀▀▀▀░░░░ 
+</code></pre>
+
+<hr><hr><h2>
+<a name="linki-do-repozytorium" class="anchor" href="#linki-do-repozytorium"><span class="octicon octicon-link"></span></a>Linki do repozytorium.</h2>
 
 <p><a href="https://github.com/MajaD?tab=repositories">https://github.com/MajaD?tab=repositories</a></p>
 
-<h3>
-<a name="latex" class="anchor" href="#latex"><span class="octicon octicon-link"></span></a>Latex</h3>
+<hr><hr><h2>
+<a name="latex" class="anchor" href="#latex"><span class="octicon octicon-link"></span></a>Latex</h2>
 
 <p><a href="https://github.com/MajaD/latex/blob/master/README.md">https://github.com/MajaD/latex/blob/master/README.md</a></p>
 
-<h3>
-<a name="kontakt" class="anchor" href="#kontakt"><span class="octicon octicon-link"></span></a>Kontakt.</h3>
+<hr><hr><h2>
+<a name="skrypty" class="anchor" href="#skrypty"><span class="octicon octicon-link"></span></a>Skrypty</h2>
+
+<div class="highlight highlight-bash"><pre><span class="c">#!/bin/bash</span>
+
+<span class="c">#</span>
+<span class="c"># Hello world example</span>
+<span class="c">#</span>
+
+<span class="nb">echo</span> <span class="s2">"Hello world"</span>
+</pre></div>
+
+<hr><div class="highlight highlight-bash"><pre><span class="c">#!/bin/bash</span>
+
+<span class="nv">GDZIE_JESTEM</span><span class="o">=</span><span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>
+<span class="nv">KIM_JESTEM</span><span class="o">=</span><span class="sb">`</span>whoami<span class="sb">`</span>
+<span class="nb">echo</span> <span class="s2">"Nazywam sie $KIM_JESTEM i przebywam w katalogu $GDZIE_JESTEM"</span>
+</pre></div>
+
+<hr><div class="highlight highlight-bash"><pre><span class="c">#!/bin/bash</span>
+<span class="nb">echo</span> <span class="s2">"Nazwa skryptu to: $0"</span>
+<span class="nb">echo</span> <span class="s1">'------------------------------------'</span>
+<span class="nb">echo</span> <span class="s2">"Nazwa pierwszego argumentu to: $1"</span>
+<span class="nb">echo</span> <span class="s1">'------------------------------------'</span>
+<span class="nb">echo</span> <span class="s2">"Wszystkie argumenty: $*"</span>
+<span class="nb">echo</span> <span class="s1">'------------------------------------'</span>
+<span class="nb">echo</span> <span class="s2">"Podałeś $# poleceń"</span>
+</pre></div>
+
+<hr><div class="highlight highlight-bash"><pre><span class="c">#!/bin/bash</span>
+<span class="nb">echo</span> <span class="s1">'Jak masz na imię?'</span>
+<span class="nb">read </span>zmienna
+<span class="nb">echo</span> <span class="s2">"Twoje imie to: $zmienna"</span>
+</pre></div>
+
+<hr><div class="highlight highlight-bash"><pre><span class="c">#!/bin/bash</span>
+<span class="nb">echo</span> <span class="s1">'Wizytowka'</span>
+<span class="nb">echo</span> <span class="s1">'#####################################'</span>
+<span class="nb">echo</span> <span class="s1">'Program poprosi cię o wpisanie różnych danych.'</span>
+<span class="nb">echo</span> <span class="s1">'Po wpisaniu wciśnij Enter by przejść dalej.'</span>
+<span class="nb">echo</span> <span class="s1">'#####################################'</span>
+<span class="nb">echo</span> <span class="s1">'Podaj swoje Imię i Nazwisko:'</span>
+<span class="nb">read </span>name
+<span class="nb">echo</span> <span class="s1">'Podaj swój adres E-Mail:'</span>
+<span class="nb">read </span>mail
+<span class="nb">echo</span> <span class="s1">'Podaj numer Gadu-Gadu:'</span>
+<span class="nb">read </span>gg
+<span class="nb">echo</span> <span class="s1">'#####################################'</span>
+<span class="nb">echo</span> <span class="s1">'Pobieranie danych zakończone'</span>
+touch wizytowka.txt
+<span class="nb">echo</span> <span class="s2">"$name"</span> &gt;&gt; wizytowka.txt
+<span class="nb">echo</span> <span class="s2">"Email: $mail"</span> &gt;&gt; wizytowka.txt
+<span class="nb">echo</span> <span class="s2">"Gadu-Gadu $gg"</span> &gt;&gt; wizytowka.txt
+<span class="nb">echo</span> <span class="s1">'Generowanie wizytówki zakończone'</span>
+<span class="nb">echo</span> <span class="s1">'Plik wizytowka.txt gotowy!'</span>
+<span class="nb">echo</span> <span class="s1">'#####################################'</span>
+</pre></div>
+
+<hr><h3>
+<a name="link-do-skrypt%C3%B3w" class="anchor" href="#link-do-skrypt%C3%B3w"><span class="octicon octicon-link"></span></a>Link do skryptów</h3>
+
+<p><a href="https://github.com/MajaD/skrypty">https://github.com/MajaD/skrypty</a></p>
+
+<hr><hr><h2>
+<a name="programy" class="anchor" href="#programy"><span class="octicon octicon-link"></span></a>Programy</h2>
+
+<div class="highlight highlight-c"><pre><span class="cp">#include&lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+        <span class="kt">int</span> <span class="n">tab</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">4</span><span class="p">];</span>
+        <span class="kt">int</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">;</span>
+        <span class="n">c</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"podaj 16 liczb tablicy: </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="k">for</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">a</span><span class="o">&lt;</span><span class="mi">4</span><span class="p">;</span><span class="n">a</span><span class="o">++</span><span class="p">)</span>
+        <span class="p">{</span>
+                <span class="k">for</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">b</span><span class="o">&lt;</span><span class="mi">4</span><span class="p">;</span><span class="n">b</span><span class="o">++</span><span class="p">)</span>
+                <span class="p">{</span>
+                        <span class="n">printf</span><span class="p">(</span><span class="s">"liczba %3d: "</span><span class="p">,</span> <span class="n">c</span><span class="p">);</span>
+                        <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">tab</span><span class="p">[</span><span class="n">a</span><span class="p">][</span><span class="n">b</span><span class="p">]);</span>
+                        <span class="n">c</span><span class="o">++</span><span class="p">;</span>
+                <span class="p">}</span>
+
+        <span class="p">}</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s"> tablica wypisana kolejno wierszami: </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="k">for</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">a</span><span class="o">&lt;</span><span class="mi">4</span><span class="p">;</span><span class="n">a</span><span class="o">++</span><span class="p">)</span>
+        <span class="p">{</span>
+                <span class="k">for</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">b</span><span class="o">&lt;</span><span class="mi">4</span><span class="p">;</span><span class="n">b</span><span class="o">++</span><span class="p">)</span>
+                <span class="p">{</span>
+                        <span class="n">printf</span><span class="p">(</span><span class="s">"%3d"</span><span class="p">,</span> <span class="n">tab</span><span class="p">[</span><span class="n">a</span><span class="p">][</span><span class="n">b</span><span class="p">]);</span>
+                <span class="p">}</span>
+                <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">tablica wypisana kolejno kolumnami: </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="k">for</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">b</span><span class="o">&lt;</span><span class="mi">4</span><span class="p">;</span><span class="n">b</span><span class="o">++</span><span class="p">)</span>
+        <span class="p">{</span>
+                <span class="k">for</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">a</span><span class="o">&lt;</span><span class="mi">4</span><span class="p">;</span><span class="n">a</span><span class="o">++</span><span class="p">)</span>
+                <span class="p">{</span>
+                        <span class="n">printf</span><span class="p">(</span><span class="s">"%3d"</span><span class="p">,</span> <span class="n">tab</span><span class="p">[</span><span class="n">a</span><span class="p">][</span><span class="n">b</span><span class="p">]);</span>
+                <span class="p">}</span>
+                <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="p">}</span>
+
+<span class="p">}</span>
+</pre></div>
+
+<hr><div class="highlight highlight-c"><pre><span class="cp">#include&lt;stdio.h&gt;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kt">char</span> <span class="n">klucz</span> <span class="p">[</span><span class="mi">27</span><span class="p">];</span>
+  <span class="kt">char</span> <span class="n">z</span><span class="p">;</span>
+  <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+
+ <span class="c1">// Klucz szyfru:</span>
+  <span class="n">klucz</span><span class="p">[</span> <span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'0'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span> <span class="mi">9</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'w'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">18</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'k'</span><span class="p">;</span>
+  <span class="n">klucz</span><span class="p">[</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'i'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">10</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'y'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">19</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'r'</span><span class="p">;</span>
+  <span class="n">klucz</span><span class="p">[</span> <span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'n'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">11</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'c'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">20</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'j'</span><span class="p">;</span>
+  <span class="n">klucz</span><span class="p">[</span> <span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'h'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">12</span><span class="p">]</span> <span class="o">=</span> <span class="sc">' '</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">21</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'u'</span><span class="p">;</span>
+  <span class="n">klucz</span><span class="p">[</span> <span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'m'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">13</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'b'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">22</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'d'</span><span class="p">;</span>
+  <span class="n">klucz</span><span class="p">[</span> <span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'t'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">14</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'q'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">23</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'g'</span><span class="p">;</span>
+  <span class="n">klucz</span><span class="p">[</span> <span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'p'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">15</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'x'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">24</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'o'</span><span class="p">;</span>
+  <span class="n">klucz</span><span class="p">[</span> <span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'a'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">16</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'e'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">25</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'f'</span><span class="p">;</span>
+  <span class="n">klucz</span><span class="p">[</span> <span class="mi">8</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'l'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">17</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'v'</span><span class="p">;</span> <span class="n">klucz</span><span class="p">[</span><span class="mi">26</span><span class="p">]</span> <span class="o">=</span> <span class="sc">'z'</span><span class="p">;</span>
+
+  <span class="n">z</span> <span class="o">=</span> <span class="n">getchar</span><span class="p">();</span>
+  <span class="k">while</span> <span class="p">(</span><span class="n">z</span> <span class="o">!=</span> <span class="n">EOF</span><span class="p">)</span> <span class="p">{</span>
+
+   <span class="c1">// znaleźć w tablicy klucz wczytany znak z :</span>
+    <span class="n">n</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">n</span><span class="o">&lt;</span><span class="mi">27</span> <span class="o">&amp;&amp;</span> <span class="n">klucz</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">!=</span> <span class="n">z</span><span class="p">)</span> <span class="n">n</span><span class="o">=</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
+
+   <span class="c1">// wydrukować odpowiadający mu indeks tablicy:</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">n</span><span class="o">&lt;</span><span class="mi">27</span><span class="p">)</span> <span class="n">printf</span><span class="p">(</span><span class="s">"%i "</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+
+   <span class="c1">// wczytać nowy znak:</span>
+    <span class="n">z</span> <span class="o">=</span> <span class="n">getchar</span><span class="p">();</span>
+  <span class="p">}</span>
+
+ <span class="c1">// zakończyć wydruk:</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"-1</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<hr><div class="highlight highlight-c"><pre><span class="cp">#include&lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="n">s</span><span class="p">;</span>
+<span class="kt">int</span> <span class="nf">silnia</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">n</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span> <span class="n">s</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+        <span class="k">else</span>
+        <span class="p">{</span>
+                <span class="n">silnia</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">);</span> <span class="n">s</span><span class="o">=</span><span class="n">s</span><span class="o">*</span><span class="n">n</span><span class="p">;</span>
+        <span class="p">}</span>
+<span class="p">}</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"podaj liczbe: "</span><span class="p">);</span>
+<span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">);</span>
+<span class="n">silnia</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"silnia wynosi: %3d"</span><span class="p">,</span> <span class="n">s</span><span class="p">);</span>        
+<span class="p">}</span>
+</pre></div>
+
+<hr><div class="highlight highlight-c"><pre><span class="cp">#include&lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+        <span class="kt">int</span> <span class="n">tab1</span><span class="p">[</span><span class="mi">1000</span><span class="p">];</span>
+        <span class="kt">int</span> <span class="n">tab2</span><span class="p">[</span><span class="mi">1000</span><span class="p">];</span>
+        <span class="kt">int</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">,</span><span class="n">ilejed</span><span class="p">,</span><span class="n">dl</span><span class="p">,</span><span class="n">krok</span><span class="p">,</span><span class="n">jed</span><span class="p">,</span><span class="n">indeks</span><span class="p">,</span><span class="n">pom</span><span class="p">;</span>
+        <span class="n">pom</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"podaj dlugosc tablicy: </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span><span class="o">&amp;</span><span class="n">dl</span><span class="p">);</span>
+
+        <span class="k">for</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">a</span><span class="o">&lt;</span><span class="n">dl</span><span class="o">+</span><span class="mi">2</span><span class="p">;</span><span class="n">a</span><span class="o">++</span><span class="p">)</span>
+        <span class="p">{</span>
+        <span class="n">tab1</span><span class="p">[</span><span class="n">a</span><span class="p">]</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+        <span class="n">tab2</span><span class="p">[</span><span class="n">a</span><span class="p">]</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>        
+        <span class="p">}</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s">"podaj ilosc jedynek wystepujących w tablicy: </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span><span class="o">&amp;</span><span class="n">ilejed</span><span class="p">);</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"podaj nr pol tablicy ktore maja byc jedynkami: (od 1 do %d)</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="n">dl</span><span class="p">);</span>
+
+
+        <span class="k">for</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">a</span><span class="o">&lt;</span><span class="n">ilejed</span><span class="p">;</span><span class="n">a</span><span class="o">++</span><span class="p">)</span>
+        <span class="p">{</span>
+                <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">indeks</span><span class="p">);</span>
+                <span class="n">tab1</span><span class="p">[</span><span class="n">indeks</span><span class="p">]</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s">"podaj liczbe krokow ewolucji: </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">krok</span><span class="p">);</span>
+
+        <span class="k">for</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">a</span><span class="o">&lt;</span><span class="n">krok</span><span class="p">;</span><span class="n">a</span><span class="o">++</span><span class="p">)</span>
+        <span class="p">{</span>
+
+        <span class="k">if</span><span class="p">(</span><span class="n">pom</span><span class="o">%</span><span class="mi">2</span><span class="o">==</span><span class="mi">1</span><span class="p">)</span>
+        <span class="p">{</span>
+                <span class="k">for</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="n">b</span><span class="o">&lt;</span><span class="n">dl</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span><span class="n">b</span><span class="o">++</span><span class="p">)</span>
+                <span class="p">{</span>
+                <span class="n">printf</span><span class="p">(</span><span class="s">"%2d"</span><span class="p">,</span> <span class="n">tab1</span><span class="p">[</span><span class="n">b</span><span class="p">]);</span>
+                <span class="p">}</span>
+
+                        <span class="k">for</span><span class="p">(</span><span class="n">c</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="n">c</span><span class="o">&lt;</span><span class="n">dl</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span><span class="n">c</span><span class="o">++</span><span class="p">)</span>
+                        <span class="p">{</span>
+                                <span class="k">if</span><span class="p">((</span><span class="n">tab1</span><span class="p">[</span><span class="n">c</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="n">tab1</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">+</span><span class="n">tab1</span><span class="p">[</span><span class="n">c</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span><span class="o">%</span><span class="mi">2</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span>
+                                <span class="p">{</span>
+                                <span class="n">tab2</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+                                <span class="p">}</span>
+                                <span class="k">else</span>
+                                <span class="p">{</span>
+                                <span class="n">tab2</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+                                <span class="p">}</span>
+                        <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="k">else</span>
+        <span class="p">{</span>
+                <span class="k">for</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="n">b</span><span class="o">&lt;</span><span class="n">dl</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span><span class="n">b</span><span class="o">++</span><span class="p">)</span>
+                <span class="p">{</span>
+                        <span class="n">printf</span><span class="p">(</span><span class="s">"%2d"</span><span class="p">,</span> <span class="n">tab2</span><span class="p">[</span><span class="n">b</span><span class="p">]);</span>
+                <span class="p">}</span>
+
+                        <span class="k">for</span><span class="p">(</span><span class="n">c</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="n">c</span><span class="o">&lt;</span><span class="n">dl</span><span class="o">+</span><span class="mi">2</span><span class="p">;</span><span class="n">c</span><span class="o">++</span><span class="p">)</span>
+                        <span class="p">{</span>
+                                <span class="k">if</span><span class="p">((</span><span class="n">tab2</span><span class="p">[</span><span class="n">c</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="n">tab2</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">+</span><span class="n">tab2</span><span class="p">[</span><span class="n">c</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span><span class="o">%</span><span class="mi">2</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span>
+                                <span class="p">{</span>
+                                <span class="n">tab1</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+                                <span class="p">}</span>
+                                <span class="k">else</span>
+                                <span class="p">{</span>
+                                <span class="n">tab1</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+                                <span class="p">}</span>
+                        <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="n">pom</span><span class="o">=</span><span class="n">pom</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>                
+        <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+<hr><div class="highlight highlight-c"><pre><span class="cp">#include&lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+ <span class="kt">int</span> <span class="n">num</span><span class="p">,</span><span class="n">r</span><span class="p">,</span><span class="n">c</span><span class="p">,</span><span class="n">sp</span><span class="p">,</span><span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+ <span class="n">printf</span><span class="p">(</span><span class="s">"Enter any number : "</span><span class="p">);</span>
+ <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">num</span><span class="p">);</span>
+ <span class="k">for</span><span class="p">(</span><span class="n">r</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">r</span><span class="o">&lt;=</span><span class="n">num</span><span class="p">;</span> <span class="n">r</span><span class="o">++</span><span class="p">)</span>
+ <span class="p">{</span>
+  <span class="k">for</span><span class="p">(</span><span class="n">sp</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">sp</span><span class="o">&lt;=</span><span class="n">num</span><span class="o">-</span><span class="n">r</span><span class="p">;</span> <span class="n">sp</span><span class="o">++</span><span class="p">)</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">" "</span><span class="p">);</span>
+  <span class="k">for</span><span class="p">(</span><span class="n">c</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">c</span><span class="o">&lt;=</span><span class="n">r</span><span class="p">;</span> <span class="n">c</span><span class="o">++</span><span class="p">,</span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%d "</span><span class="p">,</span><span class="n">i</span><span class="p">);</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+ <span class="p">}</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<hr><div class="highlight highlight-c"><pre><span class="cp">#include</span>
+  <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+
+    <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">tab1</span><span class="p">[</span><span class="mi">25</span><span class="p">][</span><span class="mi">25</span><span class="p">];</span>
+    <span class="kt">int</span> <span class="n">tab2</span><span class="p">[</span><span class="mi">25</span><span class="p">][</span><span class="mi">25</span><span class="p">];</span>
+    <span class="kt">int</span> <span class="n">tab3</span><span class="p">[</span><span class="mi">25</span><span class="p">][</span><span class="mi">25</span><span class="p">];</span>
+    <span class="kt">int</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">,</span><span class="n">w</span><span class="p">,</span><span class="n">z</span><span class="p">,</span><span class="n">x</span><span class="p">,</span><span class="n">v</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="n">pomoc</span><span class="p">;</span>
+    <span class="n">c</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"podaj wielkosc macierzy kwadratowej: </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">w</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"podaj liczby pierwszej macierzy: </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">a</span><span class="o">&lt;</span><span class="n">w</span><span class="p">;</span><span class="n">a</span><span class="o">++</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">b</span><span class="o">&lt;</span><span class="n">w</span><span class="p">;</span><span class="n">b</span><span class="o">++</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"liczba %3d: "</span><span class="p">,</span> <span class="n">c</span><span class="p">);</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">tab1</span><span class="p">[</span><span class="n">a</span><span class="p">][</span><span class="n">b</span><span class="p">]);</span>
+    <span class="n">c</span><span class="o">++</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"podaj liczby drugiej macierzy: </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+    <span class="n">c</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">a</span><span class="o">&lt;</span><span class="n">w</span><span class="p">;</span><span class="n">a</span><span class="o">++</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">b</span><span class="o">&lt;</span><span class="n">w</span><span class="p">;</span><span class="n">b</span><span class="o">++</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"liczba %3d: "</span><span class="p">,</span> <span class="n">c</span><span class="p">);</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">tab2</span><span class="p">[</span><span class="n">a</span><span class="p">][</span><span class="n">b</span><span class="p">]);</span>
+    <span class="n">c</span><span class="o">++</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="p">}</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">x</span><span class="o">&lt;</span><span class="n">w</span><span class="p">;</span><span class="n">x</span><span class="o">++</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">z</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">z</span><span class="o">&lt;</span><span class="n">w</span><span class="p">;</span><span class="n">z</span><span class="o">++</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">pomoc</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">a</span><span class="o">&lt;</span><span class="n">w</span> <span class="o">&amp;&amp;</span> <span class="n">b</span><span class="o">&lt;</span><span class="n">w</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="n">pomoc</span><span class="o">=</span><span class="p">((</span><span class="n">tab1</span><span class="p">[</span><span class="n">x</span><span class="p">][</span><span class="n">b</span><span class="p">]</span><span class="o">*</span><span class="n">tab2</span><span class="p">[</span><span class="n">a</span><span class="p">][</span><span class="n">z</span><span class="p">])</span> <span class="o">+</span> <span class="n">pomoc</span><span class="p">);</span>
+    <span class="n">b</span><span class="o">=</span><span class="n">b</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
+    <span class="n">a</span><span class="o">=</span><span class="n">a</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">tab3</span><span class="p">[</span><span class="n">x</span><span class="p">][</span><span class="n">z</span><span class="p">]</span><span class="o">=</span><span class="n">pomoc</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="n">n</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">v</span><span class="o">=</span><span class="n">w</span><span class="o">/</span><span class="mi">2</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">a</span><span class="o">&lt;</span><span class="n">w</span><span class="p">;</span><span class="n">a</span><span class="o">++</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">b</span><span class="o">&lt;</span><span class="n">w</span><span class="p">;</span><span class="n">b</span><span class="o">++</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%3d"</span><span class="p">,</span> <span class="n">tab1</span><span class="p">[</span><span class="n">a</span><span class="p">][</span><span class="n">b</span><span class="p">]);</span>
+    <span class="p">}</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">n</span><span class="o">==</span><span class="n">v</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">" * "</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">else</span>
+    <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">" "</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">b</span><span class="o">&lt;</span><span class="n">w</span><span class="p">;</span><span class="n">b</span><span class="o">++</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%3d"</span><span class="p">,</span> <span class="n">tab2</span><span class="p">[</span><span class="n">a</span><span class="p">][</span><span class="n">b</span><span class="p">]);</span>
+    <span class="p">}</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">n</span><span class="o">==</span><span class="n">v</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">" = "</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">else</span>
+    <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">" "</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">b</span><span class="o">&lt;</span><span class="n">w</span><span class="p">;</span><span class="n">b</span><span class="o">++</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%3d"</span><span class="p">,</span> <span class="n">tab3</span><span class="p">[</span><span class="n">a</span><span class="p">][</span><span class="n">b</span><span class="p">]);</span>
+    <span class="p">}</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+    <span class="n">n</span><span class="o">=</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="p">}</span>
+</pre></div>
+
+<hr><div class="highlight highlight-c"><pre><span class="cp">#include&lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="nf">main</span> <span class="p">()</span>
+<span class="p">{</span>
+        <span class="kt">float</span> <span class="n">approx</span><span class="p">,</span> <span class="n">skl</span><span class="p">,</span><span class="n">f</span><span class="p">;</span>
+        <span class="kt">int</span> <span class="n">k</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="n">o</span><span class="p">;</span>
+        <span class="n">k</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+        <span class="n">o</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+        <span class="n">approx</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+        <span class="n">skl</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"podaj liczbe: "</span><span class="p">);</span>
+        <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">);</span>
+        <span class="k">while</span><span class="p">(</span><span class="n">k</span><span class="o">&lt;=</span><span class="n">n</span><span class="p">)</span>
+        <span class="p">{</span>
+                <span class="n">k</span><span class="o">=</span><span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>        
+                <span class="n">o</span><span class="o">=</span><span class="n">o</span><span class="o">*</span><span class="n">k</span><span class="p">;</span>
+                <span class="n">f</span><span class="o">=</span><span class="n">skl</span><span class="o">/</span><span class="n">o</span><span class="p">;</span>
+                <span class="n">approx</span><span class="o">=</span><span class="n">f</span><span class="o">+</span><span class="n">approx</span><span class="p">;</span>
+
+        <span class="p">}</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"%.100f"</span><span class="p">,</span><span class="n">approx</span><span class="p">);</span>
+
+<span class="p">}</span>
+</pre></div>
+
+<hr><div class="highlight highlight-c"><pre><span class="cp">#include&lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+        <span class="kt">int</span> <span class="n">n</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">suma</span><span class="p">,</span><span class="n">potega</span><span class="p">;</span>
+        <span class="n">suma</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+        <span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s">"podaj liczbe: </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span><span class="o">&amp;</span><span class="n">n</span><span class="p">);</span>
+
+        <span class="k">while</span><span class="p">(</span><span class="n">suma</span><span class="o">&lt;</span><span class="n">n</span><span class="p">)</span>
+        <span class="p">{</span>
+                <span class="n">a</span><span class="o">++</span><span class="p">;</span>
+                <span class="n">potega</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+                <span class="n">potega</span><span class="o">=</span><span class="n">a</span><span class="o">*</span><span class="n">a</span><span class="p">;</span>
+                <span class="n">suma</span><span class="o">=</span><span class="n">suma</span><span class="o">+</span><span class="n">potega</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"najwieksza liczba spelniajaca warunek '1^2+2^2+3^2+...+n^2&lt;N' to: %3d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="n">a</span><span class="o">-</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+<hr><h3>
+<a name="link-do-program%C3%B3w" class="anchor" href="#link-do-program%C3%B3w"><span class="octicon octicon-link"></span></a>Link do programów.</h3>
+
+<p><a href="https://github.com/MajaD/programiki">https://github.com/MajaD/programiki</a></p>
+
+<hr><hr><h2>
+<a name="kontakt" class="anchor" href="#kontakt"><span class="octicon octicon-link"></span></a>Kontakt.</h2>
 
 <p><a href="mailto:Dark-Angel93@wp.pl">Dark-Angel93@wp.pl</a></p>
 
-<h3>
-<a name="pomoc" class="anchor" href="#pomoc"><span class="octicon octicon-link"></span></a>Pomoc</h3>
+<hr><hr><h2>
+<a name="pomoc" class="anchor" href="#pomoc"><span class="octicon octicon-link"></span></a>Pomoc.</h2>
 
 <p><a href="http://help.github.com/">http://help.github.com/</a> lub <a href="mailto:support@github.com">support@github.com</a>.</p>
+
+<hr><p><del>blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah</del></p>
+
+<hr>
       </section>
 
     </div>
